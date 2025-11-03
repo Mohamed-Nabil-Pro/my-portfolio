@@ -67,7 +67,7 @@ const Contact = () => {
                     <textarea id="message" name="message" rows="5" placeholder="Enter your message" required className='w-full  p-3 mt-2 mb-4 rounded-xl bg-zinc-800 border border-zinc-700 focus:border-sky-400 outline-none'></textarea>
                 </div>
 
-                <button type="submit" className="w-full  mb-4 flex justify-center items-center font-semibold text-xl gap-3 h-11 bg-zinc-400 text-zinc-950 hover:bg-zinc-300 active:bg-sky-400 px-6 rounded-full">Submit</button>
+                <button type="submit" className="ring-2 ring-zinc-50/10  hover:ring-sky-400 hover:bg-zinc-800 cursor-pointer transition-all duration-200 w-full  mb-4 flex justify-center items-center font-semibold text-xl gap-3 h-11 active:bg-sky-400/20 px-6 rounded-full">Submit</button>
             </form>
         </div>
     </section>

@@ -5,6 +5,8 @@ import Hero from './components/Hero'
 import Skills from './components/Skills';
 import Testimonials from './components/Testimonials';
 import { ReactLenis } from 'lenis/react'
+import Work from './components/Work';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -14,8 +16,10 @@ const App = () => {
       <Hero />
       <About />
       <Skills />
+      <Work />
       <Testimonials />
       <Contact />
+      <Footer />
     </>
   )
 }
