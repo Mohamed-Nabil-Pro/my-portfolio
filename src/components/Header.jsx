@@ -28,7 +28,7 @@ const Navbar = () => {
         {/* mobile menu button */}
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className=" md:hidden size-10 grid place-items-center  bg-zinc-50/10 rounded-xl ring-1 ring-zinc-50/[0.02] hover:bg-zinc-50/15 transition-[background-color, transform] active:scale-95 backdrop-blur-sm"
+          className=" md:hidden size-10 grid place-items-center  bg-zinc-50/10 rounded-xl ring-1 ring-zinc-50/[0.02] hover:bg-zinc-50/15 active:bg-zinc-50/15 transition-[background-color, transform] active:scale-95 backdrop-blur-sm"
         >
           {isMenuOpen ? (
             <HiX className="size-7" />
@@ -77,7 +77,7 @@ const Navbar = () => {
                   className={`block text-sm font-medium  ${
                     activeLink === link.href
                       ? "  text-zinc-600 bg-zinc-200 py-2 px-4 rounded-2xl transition-all duration-500 "
-                      : "text-zinc-400 hover:text-zinc-100 px-4 py-3"
+                      : "text-zinc-400 hover:text-zinc-100 active:text-zinc-100 px-4 py-3"
                   }`}
                   onClick={() => {
                     setActiveLink(link.href);

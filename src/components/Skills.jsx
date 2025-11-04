@@ -22,7 +22,7 @@ const Skills = () => {
           exceptional, high-performing websites & applications.
         </p>
         <div className="grid  md:grid-cols-2 lg:grid-cols-4  gap-8">
-          <div className="flex items-center gap-3 ring-2 ring-zinc-50/10 p-3 rounded-2xl hover:scale-105 hover:ring-sky-400 hover:bg-zinc-800 cursor-pointer transition-transform">
+          <div className="flex items-center gap-3 ring-2 ring-zinc-50/10 p-3 rounded-2xl hover:scale-105 hover:ring-sky-400 hover:bg-zinc-800 active:bg-zinc-800 active:scale-95 active:ring-sky-400 cursor-pointer transition-transform">
             <img src={images.html} alt="HTML5" className="size-8" />
             <div>
               <h3>HTML5</h3>
@@ -30,7 +30,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-3 ring-2 ring-zinc-50/10 p-3 rounded-2xl hover:scale-105 hover:ring-sky-400 hover:bg-zinc-800 cursor-pointer transition-transform">
+          <div className="flex items-center gap-3 ring-2 ring-zinc-50/10 p-3 rounded-2xl hover:scale-105 hover:ring-sky-400 hover:bg-zinc-800 active:bg-zinc-800 active:scale-95 active:ring-sky-400 cursor-pointer transition-transform">
             <img src={images.css} alt="CSS3" className="size-8" />
             <div>
               <h3>CSS3</h3>
@@ -38,7 +38,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-3 ring-2 ring-zinc-50/10 p-3 rounded-2xl hover:scale-105 hover:ring-sky-400 hover:bg-zinc-800 cursor-pointer transition-transform">
+          <div className="flex items-center gap-3 ring-2 ring-zinc-50/10 p-3 rounded-2xl hover:scale-105 hover:ring-sky-400 hover:bg-zinc-800 active:bg-zinc-800 active:scale-95 active:ring-sky-400 cursor-pointer transition-transform">
             <img src={images.js} alt="JavaScript" className="size-8" />
             <div>
               <h3>JavaScript</h3>
@@ -46,7 +46,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-3 ring-2 ring-zinc-50/10 p-3 rounded-2xl hover:scale-105 hover:ring-sky-400 hover:bg-zinc-800 cursor-pointer transition-transform">
+          <div className="flex items-center gap-3 ring-2 ring-zinc-50/10 p-3 rounded-2xl hover:scale-105 hover:ring-sky-400 hover:bg-zinc-800 active:bg-zinc-800 active:scale-95 active:ring-sky-400 cursor-pointer transition-transform">
             <img src={images.tailwind} alt="Tailwind CSS" className="size-8" />
             <div>
               <h3>Tailwind CSS</h3>
@@ -54,7 +54,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-3 ring-2 ring-zinc-50/10 p-3 rounded-2xl hover:scale-105 hover:ring-sky-400 hover:bg-zinc-800 cursor-pointer transition-transform">
+          <div className="flex items-center gap-3 ring-2 ring-zinc-50/10 p-3 rounded-2xl hover:scale-105 hover:ring-sky-400 hover:bg-zinc-800 active:bg-zinc-800 active:scale-95 active:ring-sky-400 cursor-pointer transition-transform">
             <img src={images.bootstrap} alt="Bootstrap" className="size-8" />
             <div>
               <h3>Bootstrap</h3>
@@ -62,7 +62,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-3 ring-2 ring-zinc-50/10 p-3 rounded-2xl hover:scale-105 hover:ring-sky-400 hover:bg-zinc-800 cursor-pointer transition-transform">
+          <div className="flex items-center gap-3 ring-2 ring-zinc-50/10 p-3 rounded-2xl hover:scale-105 hover:ring-sky-400 hover:bg-zinc-800  cursor-pointer transition-transform">
             <img src={images.react} alt="React" className="size-8" />
             <div>
               <h3>React</h3>
@@ -70,7 +70,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-3 ring-2 ring-zinc-50/10 p-3 rounded-2xl hover:scale-105 hover:ring-sky-400 hover:bg-zinc-800 cursor-pointer transition-transform">
+          <div className="flex items-center gap-3 ring-2 ring-zinc-50/10 p-3 rounded-2xl hover:scale-105 hover:ring-sky-400 hover:bg-zinc-800 active:bg-zinc-800 active:scale-95 active:ring-sky-400 cursor-pointer transition-transform">
             <img
               src={images.github}
               alt="GitHub"
@@ -82,7 +82,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-3 ring-2 ring-zinc-50/10 p-3 rounded-2xl hover:scale-105 hover:ring-sky-400 hover:bg-zinc-800 cursor-pointer transition-transform">
+          <div className="flex items-center gap-3 ring-2 ring-zinc-50/10 p-3 rounded-2xl hover:scale-105 hover:ring-sky-400 hover:bg-zinc-800 active:bg-zinc-800 active:scale-95 active:ring-sky-400 cursor-pointer transition-transform">
             <img src={images.figma} alt="Figma" className="size-8" />
             <div>
               <h3>Figma</h3>

@@ -124,10 +124,10 @@ const TestimonialsSection = () => {
 
         {/* navigation buttons */}
         <div className="flex justify-center gap-4 md:mt-8 mt-4">
-          <button className="swiper-button-prev w-12 h-12 cursor-pointer rounded-full border border-gray-200 flex items-center justify-center hover:bg-zinc-600/50 hover:text-white transition-all duration-200">
+          <button className="swiper-button-prev w-12 h-12 cursor-pointer rounded-full border border-gray-200 flex items-center justify-center hover:bg-zinc-600/50 hover:text-white active:bg-zinc-600/50 active:text-white transition-all duration-200">
             <BsChevronLeft className="size-6" />
           </button>
-          <button className="swiper-button-next w-12 h-12 cursor-pointer rounded-full border border-gray-200 flex items-center justify-center hover:bg-zinc-600/50 hover:text-white transition-all duration-200">
+          <button className="swiper-button-next w-12 h-12 cursor-pointer rounded-full border border-gray-200 flex items-center justify-center hover:bg-zinc-600/50 hover:text-white active:bg-zinc-600/50 active:text-white transition-all duration-200">
             <BsChevronRight className="size-6" />
           </button>
         </div>
