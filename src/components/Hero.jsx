@@ -27,7 +27,7 @@ const Hero = () => {
             <a
               href="/Mohamed-Nabil-CV.pdf"
               download="Mohamed-Nabil-CV.pdf"
-              className="flex items-center gap-3 h-11 ring-2 ring-zinc-50/10 hover:scale-105 active:scale-95 hover:ring-sky-400 active:ring-sky-600 hover:bg-zinc-800 active:bg-zinc-900 cursor-pointer transition-all px-6 font-semibold rounded-full"
+              className="flex items-center gap-3 h-11 ring-2 ring-zinc-50/10 hover:scale-105 active:scale-95 hover:ring-sky-400 active:ring-sky-400 hover:bg-zinc-800 active:bg-zinc-900 cursor-pointer transition-all px-6 font-semibold rounded-full"
             >
               Download CV{" "}
               <span>
@@ -36,7 +36,7 @@ const Hero = () => {
             </a>
             <a
               href="#contact"
-              className="flex items-center gap-3 h-11 ring-2 ring-zinc-50/10 hover:scale-105 active:scale-95 hover:ring-sky-400 active:ring-sky-600 hover:bg-zinc-800 active:bg-zinc-900 cursor-pointer transition-all px-11 font-semibold rounded-full"
+              className="flex items-center gap-3 h-11 ring-2 ring-zinc-50/10 hover:scale-105 active:scale-95 hover:ring-sky-400 active:ring-sky-400 hover:bg-zinc-800 active:bg-zinc-900 cursor-pointer transition-all px-11 font-semibold rounded-full"
             >
               Contact Me
             </a>

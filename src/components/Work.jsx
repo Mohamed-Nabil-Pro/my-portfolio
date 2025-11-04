@@ -48,7 +48,7 @@ const Work = () => {
               key={index}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:scale-105 active:scale-100 hover:bg-zinc-700/50 active:bg-zinc-800/80 p-4 bg-zinc-800/50 rounded-2xl transition-all duration-300"
+              className="hover:scale-105 active:scale-105 hover:bg-zinc-700/50 active:bg-zinc-800/80 p-4 bg-zinc-800/50 rounded-2xl transition-all duration-300"
             >
               <img
                 src={work.imgSrc}
